@@ -1,0 +1,545 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{258e85dc-e224-4504-af2a-01a5abed97e1}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{a6740ed2-8c41-46f6-93db-23058a7c6bb2}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Header Files\xlsx">
+      <UniqueIdentifier>{a1136d5f-e58d-4568-83d6-bc7190850372}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BidsManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_BidsManager.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imagepanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qchartviewer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qnavigationwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExcelDataAnalyser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AppStatusManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="View.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCreateHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="linechartframe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateFileDialogWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExportDataHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExcelDataAnalyserByQtXlsx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xlsx\xlsxabstractooxmlfile.cpp">
+      <Filter>Header Files\xlsx</Filter>
+    </ClCompile>
+    <ClCompile Include="xlsx\xlsxabstractsheet.cpp">
+      <Filter>Header Files\xlsx</Filter>
+    </ClCompile>
+    <ClCompile Include="xlsx\xlsxcell.cpp">
+      <Filter>Header Files\xlsx</Filter>
+    </ClCompile>
+    <ClCompile Include="xlsx\xlsxcellformula.cpp">
+      <Filter>Header Files\xlsx</Filter>
+    </ClCompile>
+    <ClCompile Include="xlsx\xlsxcellrange.cpp">
+      <Filter>Header Files\xlsx</Filter>
+    </ClCompile>
+    <ClCompile Include="xlsx\xlsxcellreference.cpp">
+      <Filter>Header Files\xlsx</Filter>
+    </ClCompile>
+    <ClCompile Include="xlsx\xlsxchart.cpp">
+      <Filter>Header Files\xlsx</Filter>
+    </ClCompile>
+    <ClCompile Include="xlsx\xlsxchartsheet.cpp">
+      <Filter>Header Files\xlsx</Filter>
+    </ClCompile>
+    <ClCompile Include="xlsx\xlsxcolor.cpp">
+      <Filter>Header Files\xlsx</Filter>
+    </ClCompile>
+    <ClCompile Include="xlsx\xlsxconditionalformatting.cpp">
+      <Filter>Header Files\xlsx</Filter>
+    </ClCompile>
+    <ClCompile Include="xlsx\xlsxcontenttypes.cpp">
+      <Filter>Header Files\xlsx</Filter>
+    </ClCompile>
+    <ClCompile Include="xlsx\xlsxdatavalidation.cpp">
+      <Filter>Header Files\xlsx</Filter>
+    </ClCompile>
+    <ClCompile Include="xlsx\xlsxdocpropsapp.cpp">
+      <Filter>Header Files\xlsx</Filter>
+    </ClCompile>
+    <ClCompile Include="xlsx\xlsxdocpropscore.cpp">
+      <Filter>Header Files\xlsx</Filter>
+    </ClCompile>
+    <ClCompile Include="xlsx\xlsxdocument.cpp">
+      <Filter>Header Files\xlsx</Filter>
+    </ClCompile>
+    <ClCompile Include="xlsx\xlsxdrawing.cpp">
+      <Filter>Header Files\xlsx</Filter>
+    </ClCompile>
+    <ClCompile Include="xlsx\xlsxdrawinganchor.cpp">
+      <Filter>Header Files\xlsx</Filter>
+    </ClCompile>
+    <ClCompile Include="xlsx\xlsxformat.cpp">
+      <Filter>Header Files\xlsx</Filter>
+    </ClCompile>
+    <ClCompile Include="xlsx\xlsxmediafile.cpp">
+      <Filter>Header Files\xlsx</Filter>
+    </ClCompile>
+    <ClCompile Include="xlsx\xlsxnumformatparser.cpp">
+      <Filter>Header Files\xlsx</Filter>
+    </ClCompile>
+    <ClCompile Include="xlsx\xlsxrelationships.cpp">
+      <Filter>Header Files\xlsx</Filter>
+    </ClCompile>
+    <ClCompile Include="xlsx\xlsxrichstring.cpp">
+      <Filter>Header Files\xlsx</Filter>
+    </ClCompile>
+    <ClCompile Include="xlsx\xlsxsharedstrings.cpp">
+      <Filter>Header Files\xlsx</Filter>
+    </ClCompile>
+    <ClCompile Include="xlsx\xlsxsimpleooxmlfile.cpp">
+      <Filter>Header Files\xlsx</Filter>
+    </ClCompile>
+    <ClCompile Include="xlsx\xlsxstyles.cpp">
+      <Filter>Header Files\xlsx</Filter>
+    </ClCompile>
+    <ClCompile Include="xlsx\xlsxtheme.cpp">
+      <Filter>Header Files\xlsx</Filter>
+    </ClCompile>
+    <ClCompile Include="xlsx\xlsxutility.cpp">
+      <Filter>Header Files\xlsx</Filter>
+    </ClCompile>
+    <ClCompile Include="xlsx\xlsxworkbook.cpp">
+      <Filter>Header Files\xlsx</Filter>
+    </ClCompile>
+    <ClCompile Include="xlsx\xlsxworksheet.cpp">
+      <Filter>Header Files\xlsx</Filter>
+    </ClCompile>
+    <ClCompile Include="xlsx\xlsxzipreader.cpp">
+      <Filter>Header Files\xlsx</Filter>
+    </ClCompile>
+    <ClCompile Include="xlsx\xlsxzipwriter.cpp">
+      <Filter>Header Files\xlsx</Filter>
+    </ClCompile>
+    <ClCompile Include="ExportDataHelperByQtXlsx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_xlsxdocument.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_xlsxdocument.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qnavigationwidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qnavigationwidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qchartviewer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qchartviewer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MsgBoxThread.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MsgBoxThread.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_linechartframe.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_linechartframe.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_imagepanel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_imagepanel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ExportDataHelperByQtXlsx.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ExportDataHelperByQtXlsx.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ExportDataHelper.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ExportDataHelper.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ExcelDataAnalyserByQtXlsx.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ExcelDataAnalyserByQtXlsx.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ExcelDataAnalyser.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ExcelDataAnalyser.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CreateFileDialogWindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CreateFileDialogWindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Controller.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Controller.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_BidsManager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_BidsManager.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DeleteBidsRecord.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DeleteBidsRecord.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="DeleteBidsRecord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_RecordsDirImport.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_RecordsDirImport.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="RecordsDirImport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BatchImportHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_BatchImportHelper.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_BatchImportHelper.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="BidsManager.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="BidsManager.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="BidsManager.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="imagepanel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qchartviewer.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qnavigationwidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Controller.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="linechartframe.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="createfile.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CreateFileDialogWindow.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MsgBoxThread.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ExportDataHelper.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ExcelDataAnalyser.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ExcelDataAnalyserByQtXlsx.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="xlsx\xlsxdocument.h">
+      <Filter>Header Files\xlsx</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ExportDataHelperByQtXlsx.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DeleteBidsRecord.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DeleteBidsRecord.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="RecordsDirImport.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="RecordsDirImport.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="BatchImportHelper.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_BidsManager.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DBManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AppStatusManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalDefine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="View.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCreateHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_createfile.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xlsx\xlsxabstractooxmlfile.h">
+      <Filter>Header Files\xlsx</Filter>
+    </ClInclude>
+    <ClInclude Include="xlsx\xlsxabstractooxmlfile_p.h">
+      <Filter>Header Files\xlsx</Filter>
+    </ClInclude>
+    <ClInclude Include="xlsx\xlsxabstractsheet.h">
+      <Filter>Header Files\xlsx</Filter>
+    </ClInclude>
+    <ClInclude Include="xlsx\xlsxabstractsheet_p.h">
+      <Filter>Header Files\xlsx</Filter>
+    </ClInclude>
+    <ClInclude Include="xlsx\xlsxcell.h">
+      <Filter>Header Files\xlsx</Filter>
+    </ClInclude>
+    <ClInclude Include="xlsx\xlsxcell_p.h">
+      <Filter>Header Files\xlsx</Filter>
+    </ClInclude>
+    <ClInclude Include="xlsx\xlsxcellformula.h">
+      <Filter>Header Files\xlsx</Filter>
+    </ClInclude>
+    <ClInclude Include="xlsx\xlsxcellformula_p.h">
+      <Filter>Header Files\xlsx</Filter>
+    </ClInclude>
+    <ClInclude Include="xlsx\xlsxcellrange.h">
+      <Filter>Header Files\xlsx</Filter>
+    </ClInclude>
+    <ClInclude Include="xlsx\xlsxcellreference.h">
+      <Filter>Header Files\xlsx</Filter>
+    </ClInclude>
+    <ClInclude Include="xlsx\xlsxchart.h">
+      <Filter>Header Files\xlsx</Filter>
+    </ClInclude>
+    <ClInclude Include="xlsx\xlsxchart_p.h">
+      <Filter>Header Files\xlsx</Filter>
+    </ClInclude>
+    <ClInclude Include="xlsx\xlsxchartsheet.h">
+      <Filter>Header Files\xlsx</Filter>
+    </ClInclude>
+    <ClInclude Include="xlsx\xlsxchartsheet_p.h">
+      <Filter>Header Files\xlsx</Filter>
+    </ClInclude>
+    <ClInclude Include="xlsx\xlsxcolor_p.h">
+      <Filter>Header Files\xlsx</Filter>
+    </ClInclude>
+    <ClInclude Include="xlsx\xlsxconditionalformatting.h">
+      <Filter>Header Files\xlsx</Filter>
+    </ClInclude>
+    <ClInclude Include="xlsx\xlsxconditionalformatting_p.h">
+      <Filter>Header Files\xlsx</Filter>
+    </ClInclude>
+    <ClInclude Include="xlsx\xlsxcontenttypes_p.h">
+      <Filter>Header Files\xlsx</Filter>
+    </ClInclude>
+    <ClInclude Include="xlsx\xlsxdatavalidation.h">
+      <Filter>Header Files\xlsx</Filter>
+    </ClInclude>
+    <ClInclude Include="xlsx\xlsxdatavalidation_p.h">
+      <Filter>Header Files\xlsx</Filter>
+    </ClInclude>
+    <ClInclude Include="xlsx\xlsxdocpropsapp_p.h">
+      <Filter>Header Files\xlsx</Filter>
+    </ClInclude>
+    <ClInclude Include="xlsx\xlsxdocpropscore_p.h">
+      <Filter>Header Files\xlsx</Filter>
+    </ClInclude>
+    <ClInclude Include="xlsx\xlsxdocument_p.h">
+      <Filter>Header Files\xlsx</Filter>
+    </ClInclude>
+    <ClInclude Include="xlsx\xlsxdrawing_p.h">
+      <Filter>Header Files\xlsx</Filter>
+    </ClInclude>
+    <ClInclude Include="xlsx\xlsxdrawinganchor_p.h">
+      <Filter>Header Files\xlsx</Filter>
+    </ClInclude>
+    <ClInclude Include="xlsx\xlsxformat.h">
+      <Filter>Header Files\xlsx</Filter>
+    </ClInclude>
+    <ClInclude Include="xlsx\xlsxformat_p.h">
+      <Filter>Header Files\xlsx</Filter>
+    </ClInclude>
+    <ClInclude Include="xlsx\xlsxglobal.h">
+      <Filter>Header Files\xlsx</Filter>
+    </ClInclude>
+    <ClInclude Include="xlsx\xlsxmediafile_p.h">
+      <Filter>Header Files\xlsx</Filter>
+    </ClInclude>
+    <ClInclude Include="xlsx\xlsxnumformatparser_p.h">
+      <Filter>Header Files\xlsx</Filter>
+    </ClInclude>
+    <ClInclude Include="xlsx\xlsxrelationships_p.h">
+      <Filter>Header Files\xlsx</Filter>
+    </ClInclude>
+    <ClInclude Include="xlsx\xlsxrichstring.h">
+      <Filter>Header Files\xlsx</Filter>
+    </ClInclude>
+    <ClInclude Include="xlsx\xlsxrichstring_p.h">
+      <Filter>Header Files\xlsx</Filter>
+    </ClInclude>
+    <ClInclude Include="xlsx\xlsxsharedstrings_p.h">
+      <Filter>Header Files\xlsx</Filter>
+    </ClInclude>
+    <ClInclude Include="xlsx\xlsxsimpleooxmlfile_p.h">
+      <Filter>Header Files\xlsx</Filter>
+    </ClInclude>
+    <ClInclude Include="xlsx\xlsxstyles_p.h">
+      <Filter>Header Files\xlsx</Filter>
+    </ClInclude>
+    <ClInclude Include="xlsx\xlsxtheme_p.h">
+      <Filter>Header Files\xlsx</Filter>
+    </ClInclude>
+    <ClInclude Include="xlsx\xlsxutility_p.h">
+      <Filter>Header Files\xlsx</Filter>
+    </ClInclude>
+    <ClInclude Include="xlsx\xlsxworkbook.h">
+      <Filter>Header Files\xlsx</Filter>
+    </ClInclude>
+    <ClInclude Include="xlsx\xlsxworkbook_p.h">
+      <Filter>Header Files\xlsx</Filter>
+    </ClInclude>
+    <ClInclude Include="xlsx\xlsxworksheet.h">
+      <Filter>Header Files\xlsx</Filter>
+    </ClInclude>
+    <ClInclude Include="xlsx\xlsxworksheet_p.h">
+      <Filter>Header Files\xlsx</Filter>
+    </ClInclude>
+    <ClInclude Include="xlsx\xlsxzipreader_p.h">
+      <Filter>Header Files\xlsx</Filter>
+    </ClInclude>
+    <ClInclude Include="xlsx\xlsxzipwriter_p.h">
+      <Filter>Header Files\xlsx</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_DeleteBidsRecord.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_RecordsDirImport.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

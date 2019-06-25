@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>pointer.png</file>
+        <file>zoomin.png</file>
+        <file>zoomout.png</file>
+        <file>folder.png</file>
+        <file>computer.png</file>
+        <file>excel.png</file>
+        <file>search.png</file>
+        <file>import.png</file>
+        <file>import1.png</file>
+        <file>importFromExcel.png</file>
+        <file>importfromexcel_green.png</file>
+        <file>batchimport.png</file>
+        <file>delete.png</file>
+        <file>excute.png</file>
+    </qresource>
+</RCC>

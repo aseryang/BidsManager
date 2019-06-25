@@ -1,0 +1,2085 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BidsManagerClass</class>
+ <widget class="QMainWindow" name="BidsManagerClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1322</width>
+    <height>882</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>南京嘉盛景观投标管理系统 v1.0</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QGroupBox" name="MainPage">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>20</y>
+      <width>1195</width>
+      <height>841</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>景观工程</string>
+    </property>
+    <widget class="QTabWidget" name="workSheetPages">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>1176</width>
+       <height>811</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="queryConditionInputPage">
+      <attribute name="title">
+       <string>  查 询  </string>
+      </attribute>
+      <widget class="QGroupBox" name="aaaa">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>591</width>
+         <height>341</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>开标记录查询</string>
+       </property>
+       <widget class="QLabel" name="label_4">
+        <property name="geometry">
+         <rect>
+          <x>41</x>
+          <y>76</y>
+          <width>48</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>工程地点</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_6">
+        <property name="geometry">
+         <rect>
+          <x>41</x>
+          <y>140</y>
+          <width>48</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>评标方法</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_8">
+        <property name="geometry">
+         <rect>
+          <x>41</x>
+          <y>229</y>
+          <width>48</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>业绩要求</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_9">
+        <property name="geometry">
+         <rect>
+          <x>18</x>
+          <y>290</y>
+          <width>71</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>投标报价区间</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="self_cb_nanjing">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>76</y>
+          <width>71</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>南京市区</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="self_cb_liuhe">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>76</y>
+          <width>41</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>六合</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="self_cb_lishui">
+        <property name="geometry">
+         <rect>
+          <x>290</x>
+          <y>76</y>
+          <width>51</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>溧水</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="self_cb_pukou">
+        <property name="geometry">
+         <rect>
+          <x>187</x>
+          <y>76</y>
+          <width>41</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>浦口</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="self_cb_gaochun">
+        <property name="geometry">
+         <rect>
+          <x>340</x>
+          <y>76</y>
+          <width>51</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>高淳</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="self_le_places">
+        <property name="geometry">
+         <rect>
+          <x>440</x>
+          <y>76</y>
+          <width>81</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="self_rb_helidijiafa">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>140</y>
+          <width>89</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>合理低价法</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="self_rb_pingbiaoruweifa">
+        <property name="geometry">
+         <rect>
+          <x>200</x>
+          <y>140</y>
+          <width>89</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>评标入围法</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="self_le_otherfangfa">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>170</y>
+          <width>81</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="Self_btn_Search">
+        <property name="geometry">
+         <rect>
+          <x>496</x>
+          <y>31</y>
+          <width>75</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>查询</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/search.png</normalon>
+         </iconset>
+        </property>
+       </widget>
+       <widget class="Line" name="line_4">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>253</y>
+          <width>461</width>
+          <height>2</height>
+         </rect>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+       <widget class="Line" name="line_5">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>283</y>
+          <width>461</width>
+          <height>2</height>
+         </rect>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+       <widget class="Line" name="line_6">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>163</y>
+          <width>461</width>
+          <height>2</height>
+         </rect>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+       <widget class="Line" name="line_7">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>193</y>
+          <width>461</width>
+          <height>2</height>
+         </rect>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+       <widget class="Line" name="line_8">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>66</y>
+          <width>461</width>
+          <height>2</height>
+         </rect>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+       <widget class="Line" name="line_9">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>99</y>
+          <width>461</width>
+          <height>2</height>
+         </rect>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_2">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>42</y>
+          <width>16</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>自</string>
+        </property>
+       </widget>
+       <widget class="QDateEdit" name="Self_dateEdit_start">
+        <property name="geometry">
+         <rect>
+          <x>125</x>
+          <y>42</y>
+          <width>88</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_3">
+        <property name="geometry">
+         <rect>
+          <x>219</x>
+          <y>42</y>
+          <width>24</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>至</string>
+        </property>
+       </widget>
+       <widget class="QDateEdit" name="Self_dateEdit_end">
+        <property name="geometry">
+         <rect>
+          <x>239</x>
+          <y>42</y>
+          <width>88</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="self_le_controlPrice_begin">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>107</y>
+          <width>41</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_10">
+        <property name="geometry">
+         <rect>
+          <x>152</x>
+          <y>107</y>
+          <width>41</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>万元—</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="self_le_controlPrice_end">
+        <property name="geometry">
+         <rect>
+          <x>192</x>
+          <y>107</y>
+          <width>41</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_11">
+        <property name="geometry">
+         <rect>
+          <x>235</x>
+          <y>107</y>
+          <width>24</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>万元</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_7">
+        <property name="geometry">
+         <rect>
+          <x>41</x>
+          <y>200</y>
+          <width>48</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>项目经理</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="self_rb_gaojigongchengshi">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>200</y>
+          <width>83</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>高级工程师</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="self_rb_gonchengshi">
+        <property name="geometry">
+         <rect>
+          <x>195</x>
+          <y>200</y>
+          <width>59</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>工程师</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="self_rb_yijijianzaoshi">
+        <property name="geometry">
+         <rect>
+          <x>260</x>
+          <y>200</y>
+          <width>83</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>一级建造师</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="self_rb_erjijianzaoshi">
+        <property name="geometry">
+         <rect>
+          <x>349</x>
+          <y>200</y>
+          <width>83</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>二级建造师</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label">
+        <property name="geometry">
+         <rect>
+          <x>41</x>
+          <y>42</y>
+          <width>48</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>开标时间</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_5">
+        <property name="geometry">
+         <rect>
+          <x>52</x>
+          <y>107</y>
+          <width>36</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>控制价</string>
+        </property>
+       </widget>
+       <widget class="Line" name="line_12">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>130</y>
+          <width>461</width>
+          <height>2</height>
+         </rect>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+       <widget class="Line" name="line_13">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>313</y>
+          <width>461</width>
+          <height>2</height>
+         </rect>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="self_cb_other">
+        <property name="geometry">
+         <rect>
+          <x>390</x>
+          <y>76</y>
+          <width>51</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>其它：</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="self_cb_xiangmujinliyeji">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>260</y>
+          <width>95</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>项目经理业绩</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="self_le_xiangmujinliyeji_begin">
+        <property name="geometry">
+         <rect>
+          <x>211</x>
+          <y>260</y>
+          <width>51</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="self_le_xiangmujinliyeji_end">
+        <property name="geometry">
+         <rect>
+          <x>305</x>
+          <y>260</y>
+          <width>51</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_15">
+        <property name="geometry">
+         <rect>
+          <x>265</x>
+          <y>260</y>
+          <width>36</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>万元—</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_14">
+        <property name="geometry">
+         <rect>
+          <x>359</x>
+          <y>260</y>
+          <width>24</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>万元</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="self_cb_qiyeyeji">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>230</y>
+          <width>71</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>企业业绩</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="self_le_qiyeyeji_begin">
+        <property name="geometry">
+         <rect>
+          <x>211</x>
+          <y>230</y>
+          <width>51</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_13">
+        <property name="geometry">
+         <rect>
+          <x>265</x>
+          <y>230</y>
+          <width>36</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>万元—</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="self_le_qiyeyeji_end">
+        <property name="geometry">
+         <rect>
+          <x>305</x>
+          <y>230</y>
+          <width>51</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_12">
+        <property name="geometry">
+         <rect>
+          <x>359</x>
+          <y>230</y>
+          <width>24</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>万元</string>
+        </property>
+       </widget>
+       <widget class="Line" name="line_14">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>222</y>
+          <width>461</width>
+          <height>2</height>
+         </rect>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="self_rb_mgrOtherReq">
+        <property name="geometry">
+         <rect>
+          <x>435</x>
+          <y>200</y>
+          <width>51</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>其它：</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="self_le_mgrReqOther">
+        <property name="geometry">
+         <rect>
+          <x>489</x>
+          <y>200</y>
+          <width>81</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="self_le_quanjian">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>290</y>
+          <width>18</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="self_le_quanjian_2">
+        <property name="geometry">
+         <rect>
+          <x>130</x>
+          <y>290</y>
+          <width>18</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="self_le_quanjian_3">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>290</y>
+          <width>18</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="self_le_quanjian_4">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>290</y>
+          <width>18</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="self_le_quanjian_5">
+        <property name="geometry">
+         <rect>
+          <x>210</x>
+          <y>290</y>
+          <width>18</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="self_le_quanjian_6">
+        <property name="geometry">
+         <rect>
+          <x>230</x>
+          <y>290</y>
+          <width>18</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="self_le_quanjian_7">
+        <property name="geometry">
+         <rect>
+          <x>260</x>
+          <y>290</y>
+          <width>18</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="self_le_quanjian_8">
+        <property name="geometry">
+         <rect>
+          <x>280</x>
+          <y>290</y>
+          <width>18</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="self_le_quanjian_9">
+        <property name="geometry">
+         <rect>
+          <x>310</x>
+          <y>290</y>
+          <width>18</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="self_le_quanjian_10">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>290</y>
+          <width>18</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="self_le_quanjian_11">
+        <property name="geometry">
+         <rect>
+          <x>360</x>
+          <y>290</y>
+          <width>18</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="self_le_quanjian_12">
+        <property name="geometry">
+         <rect>
+          <x>380</x>
+          <y>290</y>
+          <width>18</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="self_le_quanjian_13">
+        <property name="geometry">
+         <rect>
+          <x>410</x>
+          <y>290</y>
+          <width>18</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="self_le_quanjian_14">
+        <property name="geometry">
+         <rect>
+          <x>430</x>
+          <y>290</y>
+          <width>18</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="self_le_quanjian_15">
+        <property name="geometry">
+         <rect>
+          <x>460</x>
+          <y>290</y>
+          <width>18</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="self_rb_junzhiruweifa">
+        <property name="geometry">
+         <rect>
+          <x>290</x>
+          <y>140</y>
+          <width>89</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>均值入围法</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="self_rb_dijiapaixufa">
+        <property name="geometry">
+         <rect>
+          <x>380</x>
+          <y>140</y>
+          <width>81</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>低价排序法</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="self_rb_otherfangfa">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>170</y>
+          <width>51</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>其它：</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="self_le_quanjian_16">
+        <property name="geometry">
+         <rect>
+          <x>480</x>
+          <y>290</y>
+          <width>18</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="self_rb_quanburuweifa">
+        <property name="geometry">
+         <rect>
+          <x>470</x>
+          <y>140</y>
+          <width>81</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>全部入围法</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox">
+       <property name="geometry">
+        <rect>
+         <x>1070</x>
+         <y>10</y>
+         <width>91</width>
+         <height>236</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>开标记录管理</string>
+       </property>
+       <widget class="QPushButton" name="btn_importExcelDataFile">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>31</y>
+          <width>75</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>导入</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/importFromExcel.png</normalon>
+         </iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>16</width>
+          <height>16</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btn_importBatch">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>70</y>
+          <width>75</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>批量导入</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/batchimport.png</normalon>
+         </iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>16</width>
+          <height>16</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btn_deleteRecord">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>200</y>
+          <width>75</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>删除</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/delete.png</normalon>
+         </iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>16</width>
+          <height>16</height>
+         </size>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_2">
+       <property name="geometry">
+        <rect>
+         <x>610</x>
+         <y>10</y>
+         <width>451</width>
+         <height>111</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>其他单位查询</string>
+       </property>
+       <widget class="QLabel" name="label_16">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>42</y>
+          <width>71</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>施工单位名称</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_17">
+        <property name="geometry">
+         <rect>
+          <x>43</x>
+          <y>76</y>
+          <width>48</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>开标时间</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="other_le_companyName">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>42</y>
+          <width>218</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_21">
+        <property name="geometry">
+         <rect>
+          <x>220</x>
+          <y>76</y>
+          <width>16</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>至</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_20">
+        <property name="geometry">
+         <rect>
+          <x>108</x>
+          <y>76</y>
+          <width>12</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>自</string>
+        </property>
+       </widget>
+       <widget class="QDateEdit" name="other_dateedit_end">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>76</y>
+          <width>88</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QDateEdit" name="other_dateedit_start">
+        <property name="geometry">
+         <rect>
+          <x>126</x>
+          <y>76</y>
+          <width>88</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="other_btn_search">
+        <property name="geometry">
+         <rect>
+          <x>357</x>
+          <y>31</y>
+          <width>75</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>查询</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/search.png</normalon>
+         </iconset>
+        </property>
+       </widget>
+       <widget class="Line" name="line_2">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>66</y>
+          <width>321</width>
+          <height>2</height>
+         </rect>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+       <widget class="Line" name="line_10">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>99</y>
+          <width>321</width>
+          <height>2</height>
+         </rect>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_4">
+       <property name="geometry">
+        <rect>
+         <x>610</x>
+         <y>125</y>
+         <width>451</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>招标代理查询</string>
+       </property>
+       <widget class="QLabel" name="label_18">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>37</y>
+          <width>71</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>招标代理名称</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_19">
+        <property name="geometry">
+         <rect>
+          <x>43</x>
+          <y>70</y>
+          <width>48</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>开标时间</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="proxy_le_companyName">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>37</y>
+          <width>218</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_23">
+        <property name="geometry">
+         <rect>
+          <x>220</x>
+          <y>70</y>
+          <width>16</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>至</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_22">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>70</y>
+          <width>12</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>自</string>
+        </property>
+       </widget>
+       <widget class="QDateEdit" name="proxy_dateedit_start">
+        <property name="geometry">
+         <rect>
+          <x>126</x>
+          <y>70</y>
+          <width>88</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QDateEdit" name="proxy_dateedit_end">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>70</y>
+          <width>88</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="proxy_btn_search">
+        <property name="geometry">
+         <rect>
+          <x>357</x>
+          <y>27</y>
+          <width>75</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>查询</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/search.png</normalon>
+         </iconset>
+        </property>
+       </widget>
+       <widget class="Line" name="line">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>61</y>
+          <width>321</width>
+          <height>2</height>
+         </rect>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+       <widget class="Line" name="line_11">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>94</y>
+          <width>321</width>
+          <height>2</height>
+         </rect>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_3">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>360</y>
+         <width>1151</width>
+         <height>301</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string/>
+       </property>
+       <widget class="QWidget" name="verticalLayoutWidget_3">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>371</width>
+          <height>281</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="MethodCountsLayout"/>
+       </widget>
+       <widget class="QWidget" name="verticalLayoutWidget_4">
+        <property name="geometry">
+         <rect>
+          <x>390</x>
+          <y>10</y>
+          <width>371</width>
+          <height>281</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="APMethodOnePieLayout"/>
+       </widget>
+       <widget class="QWidget" name="verticalLayoutWidget_5">
+        <property name="geometry">
+         <rect>
+          <x>770</x>
+          <y>10</y>
+          <width>371</width>
+          <height>281</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="APMethodTwoPieLayout"/>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_5">
+       <property name="geometry">
+        <rect>
+         <x>610</x>
+         <y>250</y>
+         <width>551</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>占比区间</string>
+       </property>
+       <widget class="QLabel" name="label_24">
+        <property name="geometry">
+         <rect>
+          <x>54</x>
+          <y>30</y>
+          <width>41</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>方法一</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_25">
+        <property name="geometry">
+         <rect>
+          <x>54</x>
+          <y>60</y>
+          <width>41</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>方法二</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="le_MethodOne">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>30</y>
+          <width>18</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="le_MethodOne2">
+        <property name="geometry">
+         <rect>
+          <x>130</x>
+          <y>30</y>
+          <width>18</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="le_MethodOne3">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>30</y>
+          <width>18</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="le_MethodOne4">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>30</y>
+          <width>18</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="le_MethodOne5">
+        <property name="geometry">
+         <rect>
+          <x>210</x>
+          <y>30</y>
+          <width>18</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="le_MethodOne6">
+        <property name="geometry">
+         <rect>
+          <x>230</x>
+          <y>30</y>
+          <width>18</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="le_MethodOne7">
+        <property name="geometry">
+         <rect>
+          <x>260</x>
+          <y>30</y>
+          <width>18</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="le_MethodOne8">
+        <property name="geometry">
+         <rect>
+          <x>280</x>
+          <y>30</y>
+          <width>18</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="le_MethodOne9">
+        <property name="geometry">
+         <rect>
+          <x>310</x>
+          <y>30</y>
+          <width>18</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="le_MethodOne10">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>30</y>
+          <width>18</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="le_MethodOne11">
+        <property name="geometry">
+         <rect>
+          <x>360</x>
+          <y>30</y>
+          <width>18</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="le_MethodOne12">
+        <property name="geometry">
+         <rect>
+          <x>380</x>
+          <y>30</y>
+          <width>18</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="le_MethodOne13">
+        <property name="geometry">
+         <rect>
+          <x>410</x>
+          <y>30</y>
+          <width>18</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="le_MethodOne14">
+        <property name="geometry">
+         <rect>
+          <x>430</x>
+          <y>30</y>
+          <width>18</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="le_MethodOne15">
+        <property name="geometry">
+         <rect>
+          <x>460</x>
+          <y>30</y>
+          <width>18</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="le_MethodOne16">
+        <property name="geometry">
+         <rect>
+          <x>480</x>
+          <y>30</y>
+          <width>18</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="le_MethodTwo">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>60</y>
+          <width>18</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="le_MethodTwo_2">
+        <property name="geometry">
+         <rect>
+          <x>130</x>
+          <y>60</y>
+          <width>18</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="le_MethodTwo_3">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>60</y>
+          <width>18</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="le_MethodTwo_4">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>60</y>
+          <width>18</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="le_MethodTwo_5">
+        <property name="geometry">
+         <rect>
+          <x>210</x>
+          <y>60</y>
+          <width>18</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="le_MethodTwo_6">
+        <property name="geometry">
+         <rect>
+          <x>230</x>
+          <y>60</y>
+          <width>18</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="le_MethodTwo_7">
+        <property name="geometry">
+         <rect>
+          <x>260</x>
+          <y>60</y>
+          <width>18</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="le_MethodTwo_8">
+        <property name="geometry">
+         <rect>
+          <x>280</x>
+          <y>60</y>
+          <width>18</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="le_MethodTwo_9">
+        <property name="geometry">
+         <rect>
+          <x>310</x>
+          <y>60</y>
+          <width>18</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="le_MethodTwo_10">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>60</y>
+          <width>18</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="le_MethodTwo_11">
+        <property name="geometry">
+         <rect>
+          <x>360</x>
+          <y>60</y>
+          <width>18</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="le_MethodTwo_12">
+        <property name="geometry">
+         <rect>
+          <x>380</x>
+          <y>60</y>
+          <width>18</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="le_MethodTwo_13">
+        <property name="geometry">
+         <rect>
+          <x>410</x>
+          <y>60</y>
+          <width>18</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="le_MethodTwo_14">
+        <property name="geometry">
+         <rect>
+          <x>430</x>
+          <y>60</y>
+          <width>18</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="le_MethodTwo_15">
+        <property name="geometry">
+         <rect>
+          <x>460</x>
+          <y>60</y>
+          <width>18</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="le_MethodTwo_16">
+        <property name="geometry">
+         <rect>
+          <x>480</x>
+          <y>60</y>
+          <width>18</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="Line" name="line_15">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>46</y>
+          <width>391</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+       <widget class="Line" name="line_16">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>77</y>
+          <width>391</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="queryResultsPage">
+      <attribute name="title">
+       <string> 记录汇总 </string>
+      </attribute>
+      <widget class="QPushButton" name="btn_exportSearchResultToExcel">
+       <property name="geometry">
+        <rect>
+         <x>1080</x>
+         <y>6</y>
+         <width>81</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>导出</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normalon>:/importFromExcel.png</normalon>
+        </iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>16</width>
+         <height>16</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QTableWidget" name="tableWidget">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>40</y>
+         <width>1151</width>
+         <height>731</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lb_searchResultInfo">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>91</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>共： 0 条记录</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lb_searchResultTableName">
+       <property name="geometry">
+        <rect>
+         <x>246</x>
+         <y>20</y>
+         <width>600</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>开标记录汇总表</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="pictureShowPage">
+      <attribute name="title">
+       <string> 图  形 </string>
+      </attribute>
+      <widget class="QWidget" name="verticalLayoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>801</width>
+         <height>381</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="MeThodDuringTimeLayout"/>
+      </widget>
+      <widget class="QWidget" name="verticalLayoutWidget_2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>390</y>
+         <width>801</width>
+         <height>391</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="AveragePriceLineLayout"/>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <tabstops>
+  <tabstop>self_le_places</tabstop>
+  <tabstop>self_le_qiyeyeji_begin</tabstop>
+  <tabstop>self_rb_pingbiaoruweifa</tabstop>
+  <tabstop>self_cb_xiangmujinliyeji</tabstop>
+  <tabstop>self_le_xiangmujinliyeji_begin</tabstop>
+  <tabstop>self_cb_pukou</tabstop>
+  <tabstop>self_cb_nanjing</tabstop>
+  <tabstop>self_cb_liuhe</tabstop>
+  <tabstop>self_cb_lishui</tabstop>
+  <tabstop>Self_dateEdit_end</tabstop>
+  <tabstop>self_le_xiangmujinliyeji_end</tabstop>
+  <tabstop>self_rb_yijijianzaoshi</tabstop>
+  <tabstop>self_rb_helidijiafa</tabstop>
+  <tabstop>Self_dateEdit_start</tabstop>
+  <tabstop>workSheetPages</tabstop>
+  <tabstop>self_le_otherfangfa</tabstop>
+  <tabstop>Self_btn_Search</tabstop>
+  <tabstop>self_cb_qiyeyeji</tabstop>
+  <tabstop>other_le_companyName</tabstop>
+  <tabstop>self_le_qiyeyeji_end</tabstop>
+  <tabstop>self_le_controlPrice_begin</tabstop>
+  <tabstop>self_le_controlPrice_end</tabstop>
+  <tabstop>self_rb_gaojigongchengshi</tabstop>
+  <tabstop>self_rb_gonchengshi</tabstop>
+  <tabstop>self_cb_gaochun</tabstop>
+  <tabstop>self_rb_erjijianzaoshi</tabstop>
+  <tabstop>btn_importExcelDataFile</tabstop>
+  <tabstop>other_dateedit_end</tabstop>
+  <tabstop>other_dateedit_start</tabstop>
+  <tabstop>other_btn_search</tabstop>
+  <tabstop>proxy_le_companyName</tabstop>
+  <tabstop>proxy_dateedit_start</tabstop>
+  <tabstop>proxy_dateedit_end</tabstop>
+  <tabstop>proxy_btn_search</tabstop>
+  <tabstop>btn_exportSearchResultToExcel</tabstop>
+  <tabstop>tableWidget</tabstop>
+ </tabstops>
+ <resources>
+  <include location="BidsManager.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>Self_btn_Search</sender>
+   <signal>clicked()</signal>
+   <receiver>BidsManagerClass</receiver>
+   <slot>onSelfCompanyQuerySlot()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>613</x>
+     <y>117</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>441</x>
+     <y>4</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>other_btn_search</sender>
+   <signal>clicked()</signal>
+   <receiver>BidsManagerClass</receiver>
+   <slot>onOtherCompanyQuerySlot()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1069</x>
+     <y>132</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1012</x>
+     <y>-3</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>proxy_btn_search</sender>
+   <signal>clicked()</signal>
+   <receiver>BidsManagerClass</receiver>
+   <slot>onProxyCompanyQuerySlot()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1071</x>
+     <y>243</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>928</x>
+     <y>788</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_exportSearchResultToExcel</sender>
+   <signal>clicked()</signal>
+   <receiver>BidsManagerClass</receiver>
+   <slot>onExportDataToExcelFileSlot()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1172</x>
+     <y>97</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1207</x>
+     <y>40</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_importExcelDataFile</sender>
+   <signal>clicked()</signal>
+   <receiver>BidsManagerClass</receiver>
+   <slot>onImportExcelDataSlot()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1174</x>
+     <y>132</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>759</x>
+     <y>821</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>self_cb_other</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>BidsManagerClass</receiver>
+   <slot>onCheckboxStateChanged(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>497</x>
+     <y>154</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>40</x>
+     <y>142</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>self_rb_helidijiafa</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>BidsManagerClass</receiver>
+   <slot>onRB_helidijiafaStateChanged(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>242</x>
+     <y>224</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>40</x>
+     <y>181</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>self_rb_pingbiaoruweifa</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>BidsManagerClass</receiver>
+   <slot>onRB_pingbiaoruweifaStateChanged(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>302</x>
+     <y>230</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>39</x>
+     <y>215</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>self_cb_qiyeyeji</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>BidsManagerClass</receiver>
+   <slot>onCB_qiyeyejiStateChanged(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>265</x>
+     <y>314</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>38</x>
+     <y>296</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>self_cb_xiangmujinliyeji</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>BidsManagerClass</receiver>
+   <slot>onCB_jingliyejiStateChanged(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>234</x>
+     <y>342</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>38</x>
+     <y>331</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>self_rb_otherfangfa</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>BidsManagerClass</receiver>
+   <slot>onRB_otherbidwayStateChanged(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>257</x>
+     <y>252</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>67</x>
+     <y>249</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>self_rb_mgrOtherReq</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>BidsManagerClass</receiver>
+   <slot>onRB_mgrReqOtherStateChanged(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>563</x>
+     <y>280</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>64</x>
+     <y>378</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_importBatch</sender>
+   <signal>clicked()</signal>
+   <receiver>BidsManagerClass</receiver>
+   <slot>onBatchImportSlot()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1234</x>
+     <y>166</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1312</x>
+     <y>103</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_deleteRecord</sender>
+   <signal>clicked()</signal>
+   <receiver>BidsManagerClass</receiver>
+   <slot>onDeleteRecordSlot()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1216</x>
+     <y>224</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1304</x>
+     <y>208</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>onSelfCompanyQuerySlot()</slot>
+  <slot>onImportExcelDataSlot()</slot>
+  <slot>onOtherCompanyQuerySlot()</slot>
+  <slot>onProxyCompanyQuerySlot()</slot>
+  <slot>onExportDataToExcelFileSlot()</slot>
+  <slot>onCheckboxStateChanged(int)</slot>
+  <slot>onCheckboxStateChanged(bool)</slot>
+  <slot>onRB_helidijiafaStateChanged(bool)</slot>
+  <slot>onRB_pingbiaoruweifaStateChanged(bool)</slot>
+  <slot>onCB_qiyeyejiStateChanged(bool)</slot>
+  <slot>onCB_jingliyejiStateChanged(bool)</slot>
+  <slot>onRB_otherbidwayStateChanged(bool)</slot>
+  <slot>onRB_mgrReqOtherStateChanged(bool)</slot>
+  <slot>onBatchImportSlot()</slot>
+  <slot>onDeleteRecordSlot()</slot>
+ </slots>
+</ui>

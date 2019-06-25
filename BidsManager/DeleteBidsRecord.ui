@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DeleteBidsRecord</class>
+ <widget class="QWidget" name="DeleteBidsRecord">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>575</width>
+    <height>169</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>删除指定记录</string>
+  </property>
+  <widget class="QLineEdit" name="le_projectName">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>70</y>
+     <width>371</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_deleteRecord">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>65</y>
+     <width>75</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>执行</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normalon>:/excute.png</normalon>
+    </iconset>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>70</y>
+     <width>54</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>工程名称：</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="BidsManager.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>btn_deleteRecord</sender>
+   <signal>clicked()</signal>
+   <receiver>DeleteBidsRecord</receiver>
+   <slot>onExecuteDeleteSlot()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>509</x>
+     <y>84</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>386</x>
+     <y>125</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>onExecuteDeleteSlot()</slot>
+ </slots>
+</ui>
